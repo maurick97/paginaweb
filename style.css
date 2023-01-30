@@ -7,15 +7,34 @@ body {
   margin-top: 20%;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 .container {
   width: 50%;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
 }
+
+.container-button {
+  padding-top: 3%;
+}
+
 .big-number {
   font-size: 50px;
   font-weight: 400;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+.buttoncv {
+  background: rgb(120, 132, 142);
+  color: #fff;
+  width: auto;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.buttoncv:hover {
+  background: rgb(70, 85, 98);
 }
